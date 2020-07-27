@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connection_instructions" />
+
+    <LinearLayout
+        android:id="@+id/connectPrinter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:tint="@color/grey_40"
+            android:src="@drawable/ic_printer" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/printerStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/printer_connected"
+            android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/printerInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

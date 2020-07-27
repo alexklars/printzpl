@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Print ZPL</string>
+    <string name="print">Print</string>
+    <string name="string_ok">OK</string>
+    <string name="string_cancel">Cancel</string>
+    <string name="no_internet_connection">No internet</string>
+    <string name="can_not_connect_printer">Printer connection failed</string>
+    <string name="no_products_to_print">No products to print</string>
+    <string name="action_settings">Settings</string>
+    <string name="connection_instructions">1. Turn on bluetooth.\n2. Select printer in devices</string>
+    <string name="select_device">Select device</string>
+    <string name="no_paired_devices">No paired devices found</string>
+    <string name="pr_container">pr_container</string>
+    <string name="pr_printers">pr_printers</string>
+    <string name="string_printer">Printer</string>
+    <string name="pr_about_app">pr_about_app</string>
+    <string name="pr_title_about_app">About app</string>
+    <string name="app_version">Version %1$s</string>
+    <string name="connecting">Connecting…</string>
+    <string name="disconnecting">Disconnecting…</string>
+    <string name="printer_connected">Printer connected</string>
+    <string name="printer_disconnected">Printer disconnected</string>
+    <string name="last_connected_bluetooth_device_address">last_connected_bluetooth_device_address</string>
+</resources>

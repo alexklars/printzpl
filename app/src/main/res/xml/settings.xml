@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:key="@string/pr_container">
+
+
+    <PreferenceScreen
+        android:key="@string/pr_printers"
+        android:title="@string/string_printer"
+        app:iconSpaceReserved="false" />
+
+    <PreferenceScreen
+        android:key="@string/pr_about_app"
+        android:title="@string/pr_title_about_app"
+        app:iconSpaceReserved="false" />
+
+</PreferenceScreen>
